@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Calligraffitti&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Container h1{
+   text-align: center;
+   margin: 0.6rem 0rem ;
+   font-family: "Acme", sans-serif;;
+}
+
+.myForm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    /* IF YOU WANT TO CENTER THE FORM THEN DO THIS 
+      /* width: 100%; */
+
+}
+
+.myInput{
+           padding: 0.4rem;
+           margin: 0.4rem 0rem;
+           width: 39%;
+           font-size: 0.8rem;
+           font-style: italic;
+           border: 2px solid rgb(220, 176, 176);
+           border-radius: 0.6rem;
+           outline: none;
+           height: 2rem;
+}
+
+
+.btn{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    outline: none;
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    background-color: #eac2c8;
+    /* border: 2px solid rgb(220, 176, 176); */
+    cursor: pointer;
+}
+
+.Container {
+    min-height: 87vh;
+    padding: 3rem 0rem;
+
+    /* IF YOU WANT TO CENTER THE FORM THEN DO THIS 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+

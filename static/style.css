@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Calligraffitti&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+#logo{
+    display: flex;
+    color: #070707;
+    align-items: center;
+    margin: 0rem 1rem;
+
+}
+#logo img{
+    height: 5vh;
+    width: 2.4vw;
+} */
+#navbar{
+    background-color: #ffc0cb;
+    padding: 0.2rem 1rem;
+
+}
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+     /* justify-content: center; */
+     /* background-color: aquamarine; */
+     align-items: center;
+     padding-bottom: 0.5rem;
+     padding-top: 0.4rem;
+
+}
+
+#navbar li {
+    list-style: none;
+    
+  
+}
+
+#navbar li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0.4rem 2.3rem;
+    font-family: "Acme", sans-serif;
+    color: black;
+   
+}
+
+#navbar li a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+#introSection{
+    color: white;
+    background:  center / cover  no-repeat   url("/static/dance_academy.jpg");
+    height:54vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: "Acme", sans-serif;
+    font-size: 2.3rem;
+    flex-direction: column;
+    padding-bottom: 13rem;
+    
+
+
+}
+
+#introSection div#cartoon{
+   
+  font-size: 1.4rem;
+  box-shadow: 5px 8px 13px rgb(59, 59, 58);
+}
+
+
+
+
+
+
+
+#missionSection {
+    height: 75vh;
+    background-color: white(17, 219, 237);
+    width: 67%;
+    margin: auto ;
+   
+
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 1.2rem ;
+    font-size: 1.9rem;
+    font-family: "Lacquer", system-ui;
+    margin: 0.6rem;
+    
+  
+}
+
+.cards {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 19.7vw;
+    margin: 1.8rem 1rem;
+    height: 24rem;
+    /* background-color: #edc9cf; */
+    background-color: white;
+}
+
+.cards:hover{
+    box-shadow: 5px 8px 12px black;
+}
+
+.cards h3{
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+.card-img img{
+    height: 14vh;
+    padding: 0rem 1rem;
+    margin: 0.9rem 1rem;
+   
+
+}
+
+.card-content{
+    padding: 0.5rem 0rem;
+}
+
+.innerBox {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 14vw;
+    height: 23vh;
+    margin-left: 0.7rem;
+    overflow-wrap: break-word;
+
+}
+
+.innerBox p{
+    
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+}
+
+
+
+
+#sponsorsSection{
+    height: 40vh;
+   background-color: rgb(34, 201, 76);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 1.8rem ;
+    font-size: 1.9rem;
+    font-family: "Lacquer", system-ui;
+  
+}
+
+#sponsors {
+    height: 1vh;
+    width:299vw;
+    /* margin: auto; */
+    padding-top: 2rem;
+    padding-left: 36rem;
+}
+
+.ImgSponsors{
+   
+    height: 10vh;
+    margin: 0.1rem;
+  
+}
+#footer{
+    height: 7vh;
+    color: white;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yeon Sung", system-ui;
+}
+
